@@ -1,3 +1,5 @@
+> ⚠️ This repository is a personal learning notebook created for study purposes. It will continue to grow as I learn new concepts in Python, Data Analysis, and Data Science.
+
 # 📊 Python Data Visualization
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brainExplorer/python-data-visualization/blob/main/data_analysis_with_python.ipynb)
