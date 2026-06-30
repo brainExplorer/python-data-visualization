@@ -1,49 +1,79 @@
-> ⚠️ This repository is a personal learning notebook created for study purposes. It will continue to grow as I learn new concepts in Python, Data Analysis, and Data Science.
+> ⚠️ **This repository is a personal learning collection created for study purposes. It will continue to evolve as I explore new concepts in Python Data Visualization and Exploratory Data Analysis (EDA).**
 
 # 📊 Python Data Visualization
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brainExplorer/python-data-visualization/blob/main/data_analysis_with_python.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brainExplorer/python-data-visualization)
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
-## 📖 Overview
-
-This repository contains a practical Jupyter Notebook covering the fundamentals of **Python Data Analysis** and **Data Visualization**.
-
-The notebook demonstrates real-world data analysis workflows using Pandas, NumPy, Matplotlib, and Seaborn. It is designed for beginners and aspiring Data Analysts who want to practice Exploratory Data Analysis (EDA) and build a strong Python portfolio.
 
 ---
 
-## 📚 Topics Covered
+## 📖 Overview
 
-### 🐼 Data Analysis with Pandas
+This repository documents my learning journey in **Python Data Visualization** through practical Jupyter notebooks.
 
-* Creating DataFrames
-* Reading and inspecting datasets
-* Data selection and filtering
-* Sorting data
-* GroupBy operations
-* Aggregation
+The notebooks demonstrate how visualization techniques can be used together with **Exploratory Data Analysis (EDA)**, **data preprocessing**, and **feature exploration** to better understand real-world datasets before building machine learning models.
+
+The goal of this repository is not only to create charts, but also to understand the story behind the data.
+
+---
+
+## 📚 Included Notebooks
+
+### 📘 Data Analysis with Python
+
+An introductory notebook covering the fundamentals of data analysis and visualization.
+
+**Topics include:**
+
+* DataFrames
+* Data inspection
+* Data cleaning
 * Missing value handling
 * Descriptive statistics
-* Data cleaning
+* GroupBy operations
+* Filtering and sorting
+* Exploratory Data Analysis (EDA)
+* Basic visualizations
 
-### 📊 Data Visualization
+---
 
-The notebook includes practical examples of:
+### 🏠 House Price Data Visualization
+
+A comprehensive exploratory data analysis project using a real-world housing dataset.
+
+**Topics include:**
+
+* Data preprocessing
+* Missing value analysis
+* Feature engineering
+* Numerical feature analysis
+* Categorical feature analysis
+* Outlier detection
+* Correlation analysis
+* Distribution analysis
+* Statistical visualizations
+* Data preparation for machine learning
+
+---
+
+## 📊 Visualization Techniques
+
+The notebooks demonstrate a variety of visualization methods, including:
 
 * Histogram
-* Box Plot
 * Scatter Plot
 * Line Plot
 * Bar Plot
-* Count Plot
+* Box Plot
 * Violin Plot
+* Count Plot
 * KDE Plot
 * Pair Plot
 * Regression Plot
@@ -52,7 +82,7 @@ The notebook includes practical examples of:
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 * Python
 * Pandas
@@ -65,26 +95,29 @@ The notebook includes practical examples of:
 
 ---
 
-## 📂 Dataset
+## 📂 Datasets
 
-The notebook uses:
+The repository includes analyses using:
 
-* Sample datasets created during the exercises
-* Seaborn's built-in **Tips** dataset
+* Sample datasets
+* Seaborn built-in datasets
+* House Price dataset
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 Skills Demonstrated
 
-After completing this notebook you will be able to:
-
-* Perform Exploratory Data Analysis (EDA)
-* Clean and preprocess datasets
-* Calculate descriptive statistics
-* Handle missing values
-* Build professional visualizations
-* Understand relationships between variables
-* Apply common data analysis techniques using Python
+* Python Programming
+* Data Analysis
+* Data Cleaning
+* Data Wrangling
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Statistical Analysis
+* Feature Engineering
+* Correlation Analysis
+* Data Preprocessing
+* Machine Learning Preparation
 
 ---
 
@@ -102,33 +135,12 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-Open the notebook:
-
-```text
-data_analysis_with_python.ipynb
-```
-
-using:
+Open any notebook using:
 
 * Jupyter Notebook
 * JupyterLab
-* VS Code
+* Visual Studio Code
 * Google Colab
-
----
-
-## 📈 Skills Demonstrated
-
-* Python Programming
-* Data Analysis
-* Data Wrangling
-* Exploratory Data Analysis (EDA)
-* Data Visualization
-* Statistical Analysis
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
 
 ---
 
@@ -138,6 +150,7 @@ using:
 python-data-visualization
 │
 ├── data_analysis_with_python.ipynb
+├── house_price_dataset_v1.ipynb
 ├── requirements.txt
 ├── README.md
 └── LICENSE
