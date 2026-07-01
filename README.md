@@ -151,6 +151,7 @@ python-data-visualization
 │
 ├── data_analysis_with_python.ipynb
 ├── house_price_dataset_v1.ipynb
+├── house_price_dataset_v1.py
 ├── requirements.txt
 ├── README.md
 └── LICENSE
