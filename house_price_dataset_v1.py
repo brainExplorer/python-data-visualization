@@ -678,4 +678,4 @@ if hasattr(model, 'feature_importances_'):
     print("\n--- Top 10 Most Important Features ---")
     print(feat_imp_df.head(10))
 else:
-    print("Bu model feature_importances_ desteklemiyor.")
+    print("This model does not support feature_importances.")
